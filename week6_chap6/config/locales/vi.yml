@@ -1,0 +1,81 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+vi:
+  hello: "Hello world"
+  static_pages:
+    home:
+      name: "Trang chủ"
+      content_html: '<p>
+        Đây là trang chủ của ứng dụng ví dụ dựa trên e-book
+        <a href="https://www.railstutorial.org/"> hướng dẫn Ruby On Rails</a>.
+        </p>'
+      signup: "Đăng ký ngay"
+    about:
+      name: "Về chúng tôi"
+      content_html: '<p>
+        <a href="https://www.railstutorial.org/"><em>Hướng dẫn Ruby on Rails
+        </em></a> là một
+        <a href="https://www.railstutorial.org/book">cuốn sách</a> và
+        <a href="http://screencasts.railstutorial.org/">là loạt screencasts</a>
+        nhằm dạy phát triển web với
+        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        Đây là ứng dụng mẫu cho ví dụ này.
+        </p>'
+    help:
+      name: "Trợ giúp"
+      content_html: '<p>
+        Tìm trợ giúp về ROR trên
+        <a href="https://www.railstutorial.org/help">Rails Tutorial help section</a>.
+        Tìm trợ giúp về ứng dụng mẫu này truy cập sách
+        <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+        </a>.
+        </p>'
+    contact:
+      name: "Liên hệ"
+      content_html: '<p>
+        Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu này tại
+        <a href="https://www.railstutorial.org/contact">trang liên hệ</a> sau.
+        </p>'
+  users:
+    new:
+      name: "Trang đăng ký"
+      content_html: '<p>Đây là trang đăng ký dành cho người mới.</p>'
+  layouts:
+    footer:
+      new: "Tin tức"
+      info: 'Hướng dẫn <a href="https://www.railstutorial.org/">Ruby on Rails</a>
+            bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+    header:
+      login: "Đăng ký"
+      sample_app: "sample app"
+  helpers:
+    base_title: "Hướng dẫn Ruby on Rails "
