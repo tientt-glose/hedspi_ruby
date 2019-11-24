@@ -1,0 +1,132 @@
+en:
+  size_alert: "Maximum file size is 5MB. Please choose a smaller file."
+  hello: "Hello world"
+  static_pages:
+    home:
+      name: "Home page"
+      content_html: '<p>
+  This is a home page for
+  <a href="https://www.railstutorial.org/"> Ruby On Rails Tutorial</a>
+  sample application.</p>'
+      signup: "Sign up now"
+      feed: "Micropost Feed"
+    about:
+      name: "About"
+      content_html: '<p>
+        The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
+        Tutorial</em></a> is a
+        <a href="https://www.railstutorial.org/book">book</a> and
+        <a href="http://screencasts.railstutorial.org/">screencast series</a>
+        to teach web development with
+        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        This is the sample application for the tutorial.
+        </p>'
+    help:
+      name: "Help"
+      content_html: '<p>
+        Get help on the Ruby on Rails Tutorial at the
+        <a href="https://www.railstutorial.org/help">Rails Tutorial help section</a>.
+        To get help on this sample app, see the
+        <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+        book</a>.
+        </p>'
+    contact:
+      name: "Contact"
+      content_html: '<p>
+        Contact the Ruby on Rails Tutorial about the sample app at the
+        <a href="https://www.railstutorial.org/contact">contact page</a>.
+        </p>'
+  users:
+    new:
+      name: "Sign up"
+      u_create: "Create my account"
+      u_message: "Welcome to the Sample App!"
+    edit:
+      name: "Edit user"
+      u_save: "Save changes"
+      u_ava: "Change"
+    index:
+      name: "All users"
+    show:
+      name: "Microposts"
+    form:
+      u_name: "Name"
+      u_email: "Email"
+      u_pass: "Password"
+      u_pass_cf: "Password Confirmation"
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+  microposts:
+    micropost:
+      confirm: "You sure?"
+      time_1: "Posted"
+      time_2: "ago."
+      delete: "Delete"
+  layouts:
+    footer:
+      new: "News"
+      info: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+            by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+    header:
+      login: "Log in"
+      logout: "Log out"
+      sample_app: "sample app"
+      users: "Users"
+      acc: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      lang:
+        en: "English"
+        vi: "Tiếng Việt"
+  sessions:
+    new:
+      name: "Log in"
+      email: "Email"
+      pass: "Password"
+      remember: "Remember me on this computer"
+      new: "New user? "
+      signup_now: "Sign up now!"
+  shared:
+    error_messages:
+      content: "The form contains"
+      err: "error"
+    user_info:
+      view: "View my profile"
+      post: "micropost"
+    micropost_form:
+      post: "Post"
+      content: "Compose new micropost..."
+
+  controllers:
+    users:
+      show:
+        message: "We cannot find this account!"
+      update:
+        message: "Profile updated!"
+      logged_in_user:
+        message: "Please log in."
+      correct_user:
+        message: "You can only edit your account information."
+      destroy:
+        message: "User deleted"
+    sessions:
+      error_messages: "Invalid email/password combination"
+    microposts:
+      create:
+        succeed: "Micropost created"
+      destroy:
+        succeed: "Micropost deleted"
+        fail: "Micropost deletion failed!"
+
+  helpers:
+    base_title: "Ruby on Rails Tutorial Sample App"
+
+  will_paginate:
+    previous_label: "&#8592; Previous"
+    next_label: "Next &#8594;"
+    page_gap: "&hellip;"
+
+  model:
+    micropost:
+      picture_size: "Photos must not exceed 5mb."
