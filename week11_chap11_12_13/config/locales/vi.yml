@@ -1,0 +1,131 @@
+vi:
+  size_alert: "Kích thước tối đa là 5mb. Vui lòng chọn lại hình khác."
+  hello: "Hello world"
+  static_pages:
+    home:
+      name: "Trang chủ"
+      content_html: '<p>
+        Đây là trang chủ của ứng dụng ví dụ dựa trên e-book
+        <a href="https://www.railstutorial.org/"> hướng dẫn Ruby On Rails</a>.
+        </p>'
+      signup: "Đăng ký ngay"
+      feed: "Tường Nhà Bạn"
+    about:
+      name: "Về chúng tôi"
+      content_html: '<p>
+        <a href="https://www.railstutorial.org/"><em>Hướng dẫn Ruby on Rails
+        </em></a> là một
+        <a href="https://www.railstutorial.org/book">cuốn sách</a> và
+        <a href="http://screencasts.railstutorial.org/">là loạt screencasts</a>
+        nhằm dạy phát triển web với
+        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        Đây là ứng dụng mẫu cho ví dụ này.
+        </p>'
+    help:
+      name: "Trợ giúp"
+      content_html: '<p>
+        Tìm trợ giúp về ROR trên
+        <a href="https://www.railstutorial.org/help">Rails Tutorial help section</a>.
+        Tìm trợ giúp về ứng dụng mẫu này truy cập sách
+        <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+        </a>.
+        </p>'
+    contact:
+      name: "Liên hệ"
+      content_html: '<p>
+        Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu này tại
+        <a href="https://www.railstutorial.org/contact">trang liên hệ</a> sau.
+        </p>'
+  users:
+    new:
+      name: "Trang đăng ký"
+      u_create: "Đăng ký tài khoản"
+      u_message: "Chào mừng bạn đến với Sample App!"
+    edit:
+      name: "Sửa thông tin tài khoản"
+      u_save: "Lưu thay đổi"
+      u_ava: "Thay đổi"
+    index:
+      name: "Danh sách tài khoản"
+    show:
+      name: "Bài đăng"
+    form:
+      u_name: "Họ và tên"
+      u_email: "E-mail"
+      u_pass: "Mật khẩu"
+      u_pass_cf: "Xác nhận mật khẩu"
+    user:
+      delete: "Xóa"
+      confirm: "Xác nhận xóa?"
+  microposts:
+      micropost:
+        confirm: "Xác nhận xóa?"
+        time_1: "Đăng"
+        time_2: "trước."
+        delete: "Xóa"
+  layouts:
+    footer:
+      new: "Tin tức"
+      info: 'Hướng dẫn <a href="https://www.railstutorial.org/">Ruby on Rails</a>
+            bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+    header:
+      login: "Đăng nhập"
+      logout: "Đăng xuất"
+      sample_app: "sample app"
+      users: "Người dùng"
+      acc: "Tài khoản"
+      profile: "Trang cá nhân"
+      setting: "Cài đặt"
+      lang:
+        en: "English"
+        vi: "Tiếng Việt"
+  sessions:
+    new:
+      name: "Trang đăng nhập"
+      email: "E-mail đăng nhập"
+      pass: "Mật khẩu"
+      remember: "Ghi nhớ đăng nhập"
+      new: "Chưa có tài khoản? "
+      signup_now: "Đăng ký ngay!"
+  shared:
+    error_messages:
+      content: "Nội dung đăng ký có"
+      err: "lỗi"
+    user_info:
+      view: "Xem trang cá nhân"
+      post: "bài đăng"
+    micropost_form:
+      post: "Đăng"
+      content: "Nhập nội dung ..."
+
+  controllers:
+    users:
+      show:
+        message: "Chúng tôi không tìm thấy tài khoản này!"
+      update:
+        message: "Cập nhật thông tin tài khoản thành công!"
+      logged_in_user:
+        message: "Hãy đăng nhập để tiếp tục!"
+      correct_user:
+        message: "Bạn chỉ có thể sửa thông tin tài khoản của mình."
+      destroy:
+        message: "Tài khoản đã được xóa"
+    microposts:
+      create:
+        succeed: "Tạo bài đăng thành công"
+      destroy:
+        succeed: "Đã xóa bài đăng"
+        fail: "Không xóa được bài đăng!"
+    sessions:
+      error_messages: "Sai tài khoản hoặc mật khẩu!"
+  helpers:
+    base_title: "Hướng dẫn Ruby on Rails "
+
+  will_paginate:
+    previous_label: "&#8592; Trang trước"
+    next_label: "Trang sau &#8594;"
+    page_gap: "&hellip;"
+
+  model:
+    micropost:
+      picture_size: "Ảnh không được vượt quá 5mb."
